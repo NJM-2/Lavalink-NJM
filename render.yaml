@@ -10,4 +10,4 @@ services:
       - key: LAVALINK_PASSWORD
         value: "youshallnotpass"
       - key: LAVALINK_PORT
-        value: "2333"
+        value: "8080"
