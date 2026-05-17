@@ -7,7 +7,7 @@ services:
     branch: main
     dockerfilePath: Dockerfile
     envVars:
-      - key: LAVALINK_PASSWORD
+      - key: LAVALINK_SERVER_PASSWORD
         value: "youshallnotpass"
       - key: LAVALINK_PORT
         value: "8080"
