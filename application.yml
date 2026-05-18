@@ -2,14 +2,13 @@ server:
   port: 8080
   address: 0.0.0.0
 lavalink:
+  plugins:
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.1"
+      snapshot: false
   server:
     password: "youshallnotpass"
-    plugins:
-      - dependency: "dev.lavalink.youtube:youtube-plugin:1.11.7"
-        oauth:
-          enabled: true
     sources:
-      youtube: true
+      youtube: false
       bandcamp: true
       soundcloud: true
       twitch: true
