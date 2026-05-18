@@ -1,0 +1,27 @@
+server:
+  port: 8080
+  address: 0.0.0.0
+lavalink:
+  server:
+    password: "youshallnotpass"
+    plugins:
+      - dependency: "dev.lavalink.youtube:youtube-plugin:1.11.5"
+    sources:
+      youtube: true
+      bandcamp: true
+      soundcloud: true
+      twitch: true
+      vimeo: true
+      mixer: true
+      http: true
+      local: false
+    filters:
+      volume: true
+      equalizer: true
+      channelMix: true
+      distortion: true
+      lowPass: true
+      rotation: true
+      timescale: true
+      tremolo: true
+      vibrato: true
