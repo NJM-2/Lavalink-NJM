@@ -5,7 +5,7 @@ lavalink:
   server:
     password: "youshallnotpass"
     plugins:
-      - dependency: "dev.lavalink.youtube:youtube-plugin:1.11.5"
+      - dependency: "dev.lavalink.youtube:youtube-plugin:1.11.7"
         oauth:
           enabled: true
     sources:
