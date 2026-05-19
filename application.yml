@@ -13,7 +13,6 @@ lavalink:
       soundcloud: true
       twitch: true
       vimeo: true
-      mixer: true
       http: true
       local: false
     filters:
@@ -34,14 +33,7 @@ plugins:
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
     clients:
-      - WEB_REMIX
-      - ANDROID_MUSIC
-      - WEB
-      - WEB_EMBEDDED_PLAYER
-      - ANDROID_VR
+      - TVHTML5EMBEDDED
       - TV
     oauth:
-      enabled: true
-      refreshToken: "1//05EXyBGuy5j7uCgYIARAAGAUSNwF-L9IrV6U4m3efeVlA9zEyZJFiNnnRD27c9X7BDQhknfQPP_7TzCn7TdbJTnp9gfqiBa4bmK4"
-    remoteCipher:
-      url: "https://cipher.kikkia.dev"
+      enabled: false
