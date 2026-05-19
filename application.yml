@@ -36,4 +36,4 @@ plugins:
       - TVHTML5EMBEDDED
       - TV
     oauth:
-      enabled: false
+      enabled: true
