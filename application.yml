@@ -32,9 +32,7 @@ plugins:
     allowSearch: true
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
-    clients:
-      - TVHTML5EMBEDDED
-      - TV
+    
     oauth:
       enabled: true
       refreshToken: "1//03GxiywkMZv2vCgYIARAAGAMSNwF-L9IrQdBfU6upDKnI3EZF_jY6VjmJgckyIUdxYDNlL9GxmV6VyORyovYATeSdREPQ7uQkYvs"
