@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 7860
   address: 0.0.0.0
 lavalink:
   plugins:
@@ -26,3 +26,22 @@ lavalink:
       timescale: true
       tremolo: true
       vibrato: true
+
+plugins:
+  youtube:
+    enabled: true
+    allowSearch: true
+    allowDirectVideoIds: true
+    allowDirectPlaylistIds: true
+    clients:
+      - WEB_REMIX
+      - ANDROID_MUSIC
+      - WEB
+      - WEB_EMBEDDED_PLAYER
+      - ANDROID_VR
+      - TV
+    oauth:
+      enabled: true
+      refreshToken: "1//05EXyBGuy5j7uCgYIARAAGAUSNwF-L9IrV6U4m3efeVlA9zEyZJFiNnnRD27c9X7BDQhknfQPP_7TzCn7TdbJTnp9gfqiBa4bmK4"
+    remoteCipher:
+      url: "https://cipher.kikkia.dev"
